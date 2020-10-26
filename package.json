@@ -1,0 +1,14 @@
+{
+  "name": "claudia",
+  "version": "1.0.0",
+  "description": "Shopify theme for Claudia Natural Beauty Store",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
