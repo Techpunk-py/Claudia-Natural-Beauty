@@ -1,20 +1,20 @@
 {
   "current": {
-    "color_text": "#3a3a3a",
+    "color_text": "#fafafa",
     "color_body_text": "#333232",
     "color_sale_text": "#ea0606",
     "color_button": "#3a3a3a",
     "color_button_text": "#ffffff",
-    "color_small_button_text_border": "#3a3a3a",
-    "color_text_field_text": "#000000",
+    "color_small_button_text_border": "#fafafa",
+    "color_text_field_text": "#ffffff",
     "color_text_field_border": "#cccccc",
-    "color_text_field": "#ffffff",
+    "color_text_field": "#000000",
     "color_image_overlay_text": "#ffffff",
     "color_image_overlay": "#685858",
     "image_overlay_opacity": 40,
     "color_borders": "#ebebeb",
-    "color_body_bg": "#ffffff",
-    "type_header_font": "helvetica_n7",
+    "color_body_bg": "#000000",
+    "type_header_font": "akko_n4",
     "type_header_base_size": 26,
     "type_base_font": "helvetica_n4",
     "type_base_size": 15,
@@ -53,76 +53,71 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "",
           "logo_max_width": 100,
           "main_linklist": "main-menu",
-          "message": false,
+          "message": true,
           "home_page_only": true,
-          "message_text": "Announce something here",
-          "message_link": "",
-          "color_bg": "#3a3a3a",
-          "color_text": "#ffffff"
+          "message_text": "Free shipping on orders over 50$",
+          "color_bg": "#7c7575",
+          "color_text": "#181414"
         }
       },
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/blood-moon.jpg",
+          "image": "shopify:\/\/shop_images\/pexels-skitterphoto-66401.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "large",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "title": "Shine Bright",
+          "text": "<p>Make you room cosy with cute lights<\/p>",
           "button_label": "Shop Now",
-          "button_link": ""
+          "button_link": "shopify:\/\/collections"
         }
       },
       "feature-row": {
         "type": "feature-row",
+        "disabled": true,
         "settings": {
-          "image": "",
           "layout": "left",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "button_label": ""
         }
       },
       "feature-columns": {
         "type": "feature-columns",
+        "disabled": true,
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "",
+              "image": "shopify:\/\/shop_images\/pexels-melissa-698907.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": "",
-              "button_link": ""
+              "button_label": ""
             }
           },
           "feature-columns-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "",
+              "image": "shopify:\/\/shop_images\/pexels-skitterphoto-66401.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": "",
-              "button_link": ""
+              "button_label": ""
             }
           },
           "feature-columns-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "",
+              "image": "shopify:\/\/shop_images\/pexels-karol-d-359971.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": "",
-              "button_link": ""
+              "button_label": ""
             }
           }
         },
@@ -139,16 +134,17 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "title": "Featured collection",
-          "collection": "",
-          "grid": 4,
-          "rows": 2,
+          "title": "Led Table lamps",
+          "collection": "lamps",
+          "grid": 3,
+          "rows": 1,
           "show_vendor": false,
           "show_view_all": false
         }
       },
       "quotes": {
         "type": "quotes",
+        "disabled": true,
         "blocks": {
           "quotes-0": {
             "type": "quote",
@@ -183,31 +179,26 @@
       },
       "image-bar": {
         "type": "image-bar",
+        "disabled": true,
         "blocks": {
           "image-bar-0": {
             "type": "image",
             "settings": {
-              "image": "",
               "alignment": "center",
-              "link": "",
               "cta_label": ""
             }
           },
           "image-bar-1": {
             "type": "image",
             "settings": {
-              "image": "",
               "alignment": "center",
-              "link": "",
               "cta_label": ""
             }
           },
           "image-bar-2": {
             "type": "image",
             "settings": {
-              "image": "",
               "alignment": "center",
-              "link": "",
               "cta_label": ""
             }
           }
@@ -244,8 +235,8 @@
         ],
         "settings": {
           "show_payment_icons": true,
-          "color_footer_bg": "#f6f6f6",
-          "color_footer_text": "#333232",
+          "color_footer_bg": "#000000",
+          "color_footer_text": "rgba(0,0,0,0)",
           "show_locale_selector": true,
           "show_currency_selector": true
         }
@@ -257,12 +248,6 @@
           "cart_notes_enable": false
         }
       },
-      "test": {
-        "type": "test",
-        "settings": {
-          "text-box-title": "This is a cart page"
-        }
-      },
       "masha": {
         "type": "masha",
         "settings": {
@@ -271,12 +256,14 @@
       },
       "1601776093528": {
         "type": "masha",
+        "disabled": true,
         "settings": {
           "text-box": "Dynamic section"
         }
       },
       "1602136829748": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "1602136829748-0": {
             "type": "text",
@@ -291,7 +278,7 @@
           "1602136829748-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fathers-day.jpg",
+              "image": "shopify:\/\/shop_images\/pexels-melissa-698907.jpg",
               "width": "50%",
               "alignment": "center"
             }
@@ -307,6 +294,7 @@
       },
       "1602136905992": {
         "type": "masha",
+        "disabled": true,
         "settings": {
           "text-box": ""
         }
@@ -314,7 +302,7 @@
       "1602136946659": {
         "type": "featured-product",
         "settings": {
-          "featured_product": "fashion-t",
+          "featured_product": "led-star-projector-planetarium-projector-kids-room-decoration-starry-night-lamp-galaxy-light-luminaria-original-home-planetarium",
           "show_quantity_selector": true,
           "show_vendor": true,
           "enable_payment_button": true,
@@ -328,11 +316,11 @@
         "type": "collection-template",
         "settings": {
           "layout": "grid",
-          "grid": 2,
-          "rows": 2,
+          "grid": 3,
+          "rows": 4,
           "show_collection_image": true,
-          "show_vendor": true,
-          "sort_enable": true,
+          "show_vendor": false,
+          "sort_enable": false,
           "tags_enable": true
         }
       },
@@ -346,22 +334,167 @@
           "text_size": "medium",
           "title": "Image with text overlay",
           "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "button_label": ""
+        }
+      },
+      "1603499792476": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Shop",
+          "collection": "frontpage",
+          "grid": 3,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Blog posts",
+          "blog": "",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
+        }
+      },
+      "icons_with_text": {
+        "type": "icons_with_text",
+        "blocks": {
+          "6b68da3e-bf20-458c-ad1c-8b0261a6f6bc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fathers-day.jpg"
+            }
+          },
+          "4a98772c-aa5d-4f0b-8241-5e382a3c2d1a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/beach-day-at-coney-island.jpg"
+            }
+          },
+          "23f95802-925e-4303-b381-eadfec499df3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "6b68da3e-bf20-458c-ad1c-8b0261a6f6bc",
+          "4a98772c-aa5d-4f0b-8241-5e382a3c2d1a",
+          "23f95802-925e-4303-b381-eadfec499df3"
+        ],
+        "settings": {
+          "heading": "Payments",
+          "description": "<p>This is how you can pay:<\/p>"
+        }
+      },
+      "1605654780e0c426a6": {
+        "type": "icons_with_text",
+        "disabled": true,
+        "blocks": {
+          "e565f6e9-6bd2-40ef-9077-3d1e6ce6db8c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/laptop-coffee.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "e565f6e9-6bd2-40ef-9077-3d1e6ce6db8c"
+        ],
+        "settings": {
+          "heading": "Payments",
+          "description": "<p>Available payments<\/p>"
+        }
+      },
+      "collection-templateCustom": {
+        "type": "collection-templateCustom",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 4,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "16058403183a31231e": {
+        "type": "collection",
+        "settings": {
+          "title": "Night Projectors",
+          "collection": "night-projectors",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "16058438287b1611b6": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/BG_lights2.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "large",
+          "title": "Night magic",
+          "text": "<p>Create some magic with our night projectors<\/p>",
+          "button_label": ""
+        }
+      },
+      "1605844891368ca2e8": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/BG_lights1_f136564b-7547-4ad3-9330-77aaff839855.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "small",
+          "text_size": "medium",
+          "title": "Lighten up",
+          "text": "<p>Cozy led lamps<\/p>",
+          "button_label": ""
         }
       }
     },
     "content_for_index": [
       "hero-1",
+      "1603499792476",
       "feature-row",
-      "feature-columns",
+      "1605844891368ca2e8",
       "collection",
+      "1602136829748",
+      "16058438287b1611b6",
+      "16058403183a31231e",
+      "1602136946659",
       "quotes",
+      "feature-columns",
       "image-bar",
       "1601776093528",
-      "1602136829748",
       "1602136905992",
-      "1602136946659"
+      "1605654780e0c426a6"
     ]
   },
   "presets": {

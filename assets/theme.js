@@ -7850,7 +7850,7 @@ theme.Product = (function() {
     }
 
     this.productSingleObject = JSON.parse(productJson.innerHTML);
-
+    console.log(this.productSingleObject)
     this.settings.zoomEnabled =
       this.imageZoomWrapper.length > 0
         ? this.imageZoomWrapper[0].classList.contains(
