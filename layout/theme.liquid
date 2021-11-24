@@ -158,7 +158,13 @@
     }
   </script>
      
-  {{ content_for_header }}
+  
+
+  <!-- Avada Email Marketing Script -->
+ {% include 'avada-em-setting' %}
+  <!-- /Avada Email Marketing Script -->
+
+{{ content_for_header }}
 </head>
 
 <body class="template-{{ request.page_type | handle }}">
