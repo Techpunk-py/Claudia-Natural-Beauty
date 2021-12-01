@@ -32,7 +32,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/Favicon_logo.png",
     "enable_ajax": true,
     "checkout_header_image": "shopify:\/\/shop_images\/beach-day-at-coney-island.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg",
@@ -58,6 +58,7 @@
           "message": true,
           "home_page_only": true,
           "message_text": "Free shipping on orders over 50$",
+          "message_link": "",
           "color_bg": "#7c7575",
           "color_text": "#181414"
         }
@@ -65,7 +66,6 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/pexels-skitterphoto-66401.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
@@ -83,7 +83,8 @@
           "layout": "left",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "feature-columns": {
@@ -94,30 +95,30 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/pexels-melissa-698907.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": ""
+              "button_label": "",
+              "button_link": ""
             }
           },
           "feature-columns-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/pexels-skitterphoto-66401.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": ""
+              "button_label": "",
+              "button_link": ""
             }
           },
           "feature-columns-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/pexels-karol-d-359971.jpg",
               "title": "Add a title or tagline",
               "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-              "button_label": ""
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
@@ -185,6 +186,7 @@
             "type": "image",
             "settings": {
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -192,6 +194,7 @@
             "type": "image",
             "settings": {
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -199,6 +202,7 @@
             "type": "image",
             "settings": {
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           }
@@ -278,7 +282,6 @@
           "1602136829748-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/pexels-melissa-698907.jpg",
               "width": "50%",
               "alignment": "center"
             }
@@ -397,7 +400,6 @@
           "e565f6e9-6bd2-40ef-9077-3d1e6ce6db8c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/laptop-coffee.jpg"
             }
           }
         },
@@ -455,27 +457,27 @@
       "16058438287b1611b6": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/BG_lights2.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "large",
           "title": "Night magic",
           "text": "<p>Create some magic with our night projectors<\/p>",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "1605844891368ca2e8": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/BG_lights1_f136564b-7547-4ad3-9330-77aaff839855.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "small",
           "text_size": "medium",
           "title": "Lighten up",
           "text": "<p>Cozy led lamps<\/p>",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       }
     },
