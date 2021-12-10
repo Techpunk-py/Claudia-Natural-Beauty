@@ -13,7 +13,7 @@
     "color_image_overlay": "#3a3a3a",
     "image_overlay_opacity": 39,
     "color_borders": "#ebebeb",
-    "color_body_bg": "#308cbf",
+    "color_body_bg": "#333f48",
     "type_header_font": "akko_n4",
     "type_header_base_size": 26,
     "type_base_font": "helvetica_n4",
@@ -240,7 +240,7 @@
         ],
         "settings": {
           "show_payment_icons": true,
-          "color_footer_bg": "#376f84",
+          "color_footer_bg": "#333f48",
           "color_footer_text": "#0e0505",
           "show_locale_selector": true,
           "show_currency_selector": true
