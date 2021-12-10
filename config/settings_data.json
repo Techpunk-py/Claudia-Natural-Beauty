@@ -222,12 +222,13 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "title": "Quick links",
+              "title": "Caimana - True Hair Passion",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "title": "Newsletter"
             }
@@ -239,8 +240,8 @@
         ],
         "settings": {
           "show_payment_icons": true,
-          "color_footer_bg": "#000000",
-          "color_footer_text": "rgba(0,0,0,0)",
+          "color_footer_bg": "#376f84",
+          "color_footer_text": "#0e0505",
           "show_locale_selector": true,
           "show_currency_selector": true
         }
