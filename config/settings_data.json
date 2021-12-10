@@ -1,7 +1,7 @@
 {
   "current": {
     "color_text": "#fafafa",
-    "color_body_text": "#333232",
+    "color_body_text": "#308cbf",
     "color_sale_text": "#ea0606",
     "color_button": "#3a3a3a",
     "color_button_text": "#ffffff",
@@ -10,10 +10,10 @@
     "color_text_field_border": "#cccccc",
     "color_text_field": "#000000",
     "color_image_overlay_text": "#ffffff",
-    "color_image_overlay": "#685858",
-    "image_overlay_opacity": 40,
+    "color_image_overlay": "#3a3a3a",
+    "image_overlay_opacity": 39,
     "color_borders": "#ebebeb",
-    "color_body_bg": "#000000",
+    "color_body_bg": "#308cbf",
     "type_header_font": "akko_n4",
     "type_header_base_size": 26,
     "type_base_font": "helvetica_n4",
