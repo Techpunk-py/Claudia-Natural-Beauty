@@ -53,14 +53,15 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/logo_white_on_dark.png",
+          "logo_max_width": 155,
           "main_linklist": "main-menu",
           "message": true,
           "home_page_only": true,
           "message_text": "Free shipping on orders over 50$",
           "message_link": "",
-          "color_bg": "#92e3e9",
-          "color_text": "#181414"
+          "color_bg": "#a4dbe8",
+          "color_text": "#333f48"
         }
       },
       "hero-1": {
