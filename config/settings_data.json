@@ -1,18 +1,18 @@
 {
   "current": {
-    "color_text": "#fafafa",
-    "color_body_text": "#308cbf",
+    "color_text": "#ffffff",
+    "color_body_text": "#007c91",
     "color_sale_text": "#ea0606",
-    "color_button": "#3a3a3a",
+    "color_button": "#007c91",
     "color_button_text": "#ffffff",
-    "color_small_button_text_border": "#fafafa",
+    "color_small_button_text_border": "#e63bff",
     "color_text_field_text": "#ffffff",
     "color_text_field_border": "#cccccc",
-    "color_text_field": "#000000",
-    "color_image_overlay_text": "#ffffff",
-    "color_image_overlay": "#3a3a3a",
+    "color_text_field": "#333f48",
+    "color_image_overlay_text": "#333f48",
+    "color_image_overlay": "#b4887b",
     "image_overlay_opacity": 39,
-    "color_borders": "#ebebeb",
+    "color_borders": "#e63bff",
     "color_body_bg": "#333f48",
     "type_header_font": "raleway_n4",
     "type_header_base_size": 26,
@@ -32,7 +32,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/Favicon_logo_pink_1.png",
+    "favicon": "shopify:\/\/shop_images\/Favicon_logo.png",
     "enable_ajax": true,
     "checkout_header_image": "shopify:\/\/shop_images\/beach-day-at-coney-island.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg",
@@ -71,7 +71,7 @@
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "large",
-          "title": "Shine Bright",
+          "title": "Für ein grünes Gewissen",
           "text": "<p>Make you room cosy with cute lights<\/p>",
           "button_label": "Shop Now",
           "button_link": "shopify:\/\/collections"
@@ -136,7 +136,7 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "title": "Led Table lamps",
+          "title": "Haartypen",
           "collection": "lamps",
           "grid": 3,
           "rows": 1,
@@ -242,7 +242,7 @@
         "settings": {
           "show_payment_icons": true,
           "color_footer_bg": "#333f48",
-          "color_footer_text": "#0e0505",
+          "color_footer_text": "#ffffff",
           "show_locale_selector": true,
           "show_currency_selector": true
         }
@@ -349,7 +349,7 @@
           "collection": "frontpage",
           "grid": 3,
           "show_vendor": false,
-          "show_view_all": false
+          "show_view_all": true
         }
       },
       "featured-blog": {
