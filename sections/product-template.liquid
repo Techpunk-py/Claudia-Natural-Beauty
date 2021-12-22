@@ -259,7 +259,7 @@
         >{{ 'products.product.loader_label' | t }}</p>
 
         <div class="product-single__description rte">
-          {{ product.description }}
+          {% render 'ymq-tab-initializer' %}
         </div>
 
         {% if section.settings.show_share_buttons %}
