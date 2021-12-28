@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ shop.locale }}">
 <head>
+ {%- render 'layouthub_header' -%}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -182,7 +183,7 @@
   <div class="page-container drawer-page-content" id="PageContainer">
 
     <main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      <!--LayoutHub-Workspace-Start-->{{ content_for_layout }}<!--LayoutHub-Workspace-End-->
     </main>
 
     {% section 'footer' %}
@@ -202,5 +203,6 @@
 
 {% include 'swymSnippet' %}
 
-</body>
+{%- render 'layouthub_footer' -%} 
+ </body>
 </html>
